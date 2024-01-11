@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    border: 0;
+}
+
+#input{
+  width: 50%;
+  height: 30px;
+  font-size: 1rem;
+  outline-color: purple;
+  color: purple;
+  border: 1px solid purple;
+}
+
+#submit{
+    height: 30px;
+    background-color: purple;
+    color: white;
+    border: none;
+}
+
+.head-container{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    padding: 3%;
+}
+
+.todo{
+    border: 1px solid purple;
+    height: 3rem;
+    font-size: 1.5rem;
+    padding: 1rem 0rem 0rem 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+
+#search{
+    margin: 0px 0px 0px 250px;
+    width: 20%;
+    height: 30px;
+    font-size: 1rem;
+    outline-color: purple;
+    color: purple;
+    border: 1px solid purple;
+}
+
+.body-container{
+    width: 90%;
+    margin: auto;
+    padding: 0;
+}
+
+.todo-input{  
+    width: 70%;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: black;
+}
+
+.del{
+    height: 2rem;
+    width: 10%;
+    background-color: purple;
+    color: white;
+    border: none;
+}
+
+.edit{
+    height: 2rem;
+    width: 10%;
+    background-color: purple;
+    color: white;
+    border: none;
+}
+
+
+.input{
+    display: none;
+}
